@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="ManufacturedEngine driveTrain" />
+      <entry_point TYPE="field" FQNAME="Vehicle driveTrain" />
+      <entry_point TYPE="field" FQNAME="ManufacturedEngine engineCylinders" />
+      <entry_point TYPE="field" FQNAME="ManufacturedEngine engineMake" />
+      <entry_point TYPE="field" FQNAME="ManufacturedEngine engineManufacturedDate" />
+      <entry_point TYPE="field" FQNAME="ManufacturedEngine engineManufacturer" />
+      <entry_point TYPE="field" FQNAME="ManufacturedEngine engineModel" />
+      <entry_point TYPE="field" FQNAME="ManufacturedEngine engineType" />
+    </entry_points>
+    <pattern value="Chassis" />
+    <pattern value="Engine" />
+    <pattern value="Feature" />
+    <pattern value="Chassis" method="getChassisType" />
+    <pattern value="VehicleChassis" method="getChassisType" />
+    <pattern value="Feature" method="getFeature" />
+    <pattern value="Main" />
+    <pattern value="Main" method="main" />
+    <pattern value="ManufacturedEngine" />
+    <pattern value="ManufacturedEngine" method="ManufacturedEngine" />
+    <pattern value="Chassis" method="setChassisType" />
+    <pattern value="ManufacturedEngine" method="setDriveTrain" />
+    <pattern value="ManufacturedEngine" method="setEngineCylinders" />
+    <pattern value="Engine" method="setEngineMake" />
+    <pattern value="ManufacturedEngine" method="setEngineMake" />
+    <pattern value="Engine" method="setEngineManufacturedDate" />
+    <pattern value="ManufacturedEngine" method="setEngineManufacturedDate" />
+    <pattern value="Engine" method="setEngineManufacturer" />
+    <pattern value="ManufacturedEngine" method="setEngineManufacturer" />
+    <pattern value="Engine" method="setEngineModel" />
+    <pattern value="ManufacturedEngine" method="setEngineModel" />
+    <pattern value="ManufacturedEngine" method="setEngineType" />
+    <pattern value="Feature" method="setFeature" />
+    <pattern value="ManufacturedEngine" method="toString" />
+    <pattern value="Vehicle" />
+    <pattern value="VehicleChassis" />
+    <pattern value="ExteriorFeature" />
+    <pattern value="Vehicle" method="getChassisType" />
+    <pattern value="VehicleFrame" method="getChassisType" />
+    <pattern value="ExteriorFeature" method="getFeature" />
+    <pattern value="InteriorFeature" method="getFeature" />
+    <pattern value="InteriorFeature" />
+    <pattern value="Vehicle" method="setChassisType" />
+    <pattern value="VehicleChassis" method="setChassisType" />
+    <pattern value="VehicleFrame" method="setChassisType" />
+    <pattern value="Vehicle" method="setEngineMake" />
+    <pattern value="Vehicle" method="setEngineManufacturedDate" />
+    <pattern value="Vehicle" method="setEngineManufacturer" />
+    <pattern value="Vehicle" method="setEngineModel" />
+    <pattern value="ExteriorFeature" method="setFeature" />
+    <pattern value="InteriorFeature" method="setFeature" />
+    <pattern value="VehicleFrame" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
